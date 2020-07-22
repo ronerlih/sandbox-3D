@@ -30,7 +30,7 @@ function App() {
         <ambientLight intensity={0.6} position={[0,10,5]} />
         <spotLight position={[0, 4, 2]} lookAt={[0,-19,0]} castShadow={true} intensity={1}  />
         <Plane rotation={[-0.5 * Math.PI, 0, 0]} position={[0, -2, 0]} />
-        <Box receiveShadow castShadow position={[0, 0, 0]} scale={[2,2,2]}/>
+        <Box receiveShadow castShadow position={[0, 0, 0]} scale={[2,2,2]} />
         <Controls />
         <Light />
       </Canvas>
