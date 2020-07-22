@@ -1,5 +1,10 @@
+:root{
+  --header-height: attr(height)
+}
 .App {
   text-align: center;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -15,13 +20,16 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding:20px;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: left;
+}
+.canvas {
+  /* float: left!important; */
+  height:100vh!important;
+  position: absolute!important;
+  top:0;
 }
 
 .App-link {
